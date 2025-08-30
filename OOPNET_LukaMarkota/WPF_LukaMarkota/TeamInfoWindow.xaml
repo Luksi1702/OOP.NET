@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPF_LukaMarkota.TeamInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Statistika reprezentacije" Height="350" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock x:Name="lblTeamName" FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock x:Name="lblFifaCode" Margin="0,0,0,5"/>
+            <TextBlock x:Name="lblMatches" Margin="0,0,0,5"/>
+            <TextBlock x:Name="lblWins" Margin="0,0,0,5"/>
+            <TextBlock x:Name="lblLosses" Margin="0,0,0,5"/>
+            <TextBlock x:Name="lblDraws" Margin="0,0,0,5"/>
+            <TextBlock x:Name="lblGoalsScored" Margin="0,0,0,5"/>
+            <TextBlock x:Name="lblGoalsConceded" Margin="0,0,0,5"/>
+            <TextBlock x:Name="lblGoalDifference" Margin="0,0,0,5"/>
+        </StackPanel>
+    </Grid>
+</Window>

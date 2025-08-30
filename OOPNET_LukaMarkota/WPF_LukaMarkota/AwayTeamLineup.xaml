@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="WPF_LukaMarkota.AwayTeamLineup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_LukaMarkota"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="300">
+
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Starting Lineup Block -->
+        <StackPanel Grid.Row="0" Margin="2">
+            <TextBlock Text="Away Team Lineup"
+                       FontWeight="Bold" FontSize="16"
+                       HorizontalAlignment="Center" Margin="5"/>
+
+            <ItemsControl x:Name="icAwayStartingEleven">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Background="#FFCCCC" Margin="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Shirt Number -->
+                            <TextBlock Text="{Binding ShirtNumber}" Grid.Column="0"
+                           FontSize="20" FontWeight="Bold"
+                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+                            <!-- Player Name -->
+                            <TextBlock Text="{Binding Name}" Grid.Column="1"
+                           FontSize="18" FontWeight="SemiBold"
+                           VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+        </StackPanel>
+
+        <!-- Bench Section -->
+        <Border Grid.Row="1" Background="#FF9999" Margin="2">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Content="Away Team Info" Width="150" Height="30" Click="AwayButton_Click"
+                        />
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>
+
+

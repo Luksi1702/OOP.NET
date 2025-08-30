@@ -1,0 +1,50 @@
+﻿<Window x:Class="WPF_LukaMarkota.InitWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_LukaMarkota"
+        mc:Ignorable="d"
+        Title="Settings" Height="400" Width="300">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Prvenstvo -->
+        <StackPanel Grid.Row="0" Margin="5">
+            <TextBlock Text="Odaberi prvenstvo:" FontWeight="Bold"/>
+            <ComboBox x:Name="cbGender" SelectedIndex="0">
+                <ComboBoxItem Content="Muško" Tag="men"/>
+                <ComboBoxItem Content="Žensko" Tag="women"/>
+            </ComboBox>
+        </StackPanel>
+
+        <!-- Jezik -->
+        <StackPanel Grid.Row="1" Margin="5">
+            <TextBlock Text="Odaberi jezik:" FontWeight="Bold"/>
+            <ComboBox x:Name="cbLanguage" SelectedIndex="0">
+                <ComboBoxItem Content="Hrvatski" Tag="hr"/>
+                <ComboBoxItem Content="Engleski" Tag="en"/>
+            </ComboBox>
+        </StackPanel>
+
+        <!-- Prikaz prozora -->
+        <StackPanel Grid.Row="2" Margin="5">
+            <TextBlock Text="Način prikaza:" FontWeight="Bold"/>
+            <ComboBox x:Name="cbWindowMode" SelectedIndex="0">
+                <ComboBoxItem Content="Compact (1280x720)" Tag="1280x720"/>
+                <ComboBoxItem Content="Medium (1600x900)" Tag="1600x900"/>
+                <ComboBoxItem Content="Large (1920x1080)" Tag="1920x1080"/>
+                <ComboBoxItem Content="Fullscreen" Tag="fullscreen"/>
+            </ComboBox>
+        </StackPanel>
+
+        <!-- Potvrdi -->
+        <Button Grid.Row="3" Content="Save" Margin="5" Height="30"
+                HorizontalAlignment="Center" Width="150" Click="SaveConfig_Click"/>
+    </Grid>
+</Window>

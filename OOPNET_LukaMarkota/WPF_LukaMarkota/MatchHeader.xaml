@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="WPF_LukaMarkota.MatchHeader"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_LukaMarkota"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Loaded="MatchHeader_Loaded">
+
+    <Grid Background="Green" Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Stadium name -->
+            <RowDefinition Height="*"/>
+            <!-- Score + Teams -->
+        </Grid.RowDefinitions>
+
+        <!-- Match Place -->
+        <TextBlock x:Name="lblMatchLocation"
+                   Grid.Row="0"
+                   Text="Loading stadium..."
+                   FontSize="14" Foreground="White"
+                   HorizontalAlignment="Center" Margin="5"/>
+
+        <!-- Score + Teams -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <!-- Team Selector -->
+                <ColumnDefinition Width="2*"/>
+                <!-- Team A -->
+                <ColumnDefinition Width="3*"/>
+                <!-- Score + Button -->
+                <ColumnDefinition Width="2*"/>
+                <!-- Team B -->
+                <ColumnDefinition Width="2*"/>
+                <!-- Match Selector -->
+            </Grid.ColumnDefinitions>
+
+            <!-- Team Selector -->
+            <StackPanel Grid.Column="0" Margin="5" VerticalAlignment="Center">
+                <TextBlock Text="Select Team" Width="150" Foreground="White" FontWeight="Bold"/>
+                <ComboBox x:Name="cbTeamSelector" Width="150" SelectionChanged="cbTeamSelector_SelectionChanged"/>
+            </StackPanel>
+
+            <!-- Team A Name -->
+            <TextBlock x:Name="lblTeamA"
+                       Grid.Column="1"
+                       Text="Team A"
+                       FontSize="16" FontWeight="Bold"
+                       Foreground="White"
+                       HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <!-- Score + Button -->
+            <StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,10,0,0">
+                <TextBlock x:Name="lblScore"
+                           Text="0 : 0"
+                           FontSize="24" FontWeight="Bold"
+                           Foreground="White"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,10"/>
+                <Button x:Name="btnOpenSettings"
+                        Content="Settings"
+                        Width="140" Height="30"
+                        Click="btnOpenSettings_Click"/>
+            </StackPanel>
+
+            <!-- Team B Name -->
+            <TextBlock x:Name="lblTeamB"
+                       Grid.Column="3"
+                       Text="Team B"
+                       FontSize="16" FontWeight="Bold"
+                       Foreground="White"
+                       HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <!-- Match Selector -->
+            <StackPanel Grid.Column="4" Margin="5" VerticalAlignment="Center">
+                <TextBlock Text="Select Match" Width="150" Foreground="White" FontWeight="Bold"/>
+                <ComboBox x:Name="cbMatchSelector" Width="150" SelectionChanged="cbMatchSelector_SelectionChanged"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

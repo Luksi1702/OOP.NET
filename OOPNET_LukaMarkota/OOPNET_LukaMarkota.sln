@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesLibrary", "ClassesLibrary\ClassesLibrary.csproj", "{A03C3E1F-B6AA-430F-B0A7-782D63E2F970}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedData", "SharedData", "{00267C61-8848-40B0-982C-35F9FBD4C836}"
+	ProjectSection(SolutionItems) = preProject
+		SharedData\config.txt = SharedData\config.txt
+		favorite_players.txt = favorite_players.txt
+		SharedData\men_matches.json = SharedData\men_matches.json
+		SharedData\men_teams.json = SharedData\men_teams.json
+		SharedData\women_matches.json = SharedData\women_matches.json
+		SharedData\women_teams.json = SharedData\women_teams.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFA_LukaMarkota", "WFA_LukaMarkota\WFA_LukaMarkota.csproj", "{4991E3E4-CEFE-4AAC-99ED-74486947381C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{C8CF6D60-404F-49D3-89D9-D5FDBB1EFCD7}"
+	ProjectSection(SolutionItems) = preProject
+		Images\captain.jpg = Images\captain.jpg
+		Images\defaultPlayerImage.png = Images\defaultPlayerImage.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_LukaMarkota", "WPF_LukaMarkota\WPF_LukaMarkota.csproj", "{6DD39802-DA4B-413B-875A-6B9CA068D39A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A03C3E1F-B6AA-430F-B0A7-782D63E2F970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A03C3E1F-B6AA-430F-B0A7-782D63E2F970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A03C3E1F-B6AA-430F-B0A7-782D63E2F970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A03C3E1F-B6AA-430F-B0A7-782D63E2F970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4991E3E4-CEFE-4AAC-99ED-74486947381C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4991E3E4-CEFE-4AAC-99ED-74486947381C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4991E3E4-CEFE-4AAC-99ED-74486947381C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4991E3E4-CEFE-4AAC-99ED-74486947381C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD39802-DA4B-413B-875A-6B9CA068D39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD39802-DA4B-413B-875A-6B9CA068D39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD39802-DA4B-413B-875A-6B9CA068D39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD39802-DA4B-413B-875A-6B9CA068D39A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {968A183A-FACD-4D27-8306-6BBBB9DB386D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,85 @@
+﻿<UserControl x:Class="WPF_LukaMarkota.FieldLineup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="300">
+
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <!-- Home Team Zone -->
+            <RowDefinition Height="1*"/>
+            <!-- Away Team Zone -->
+        </Grid.RowDefinitions>
+
+        <!-- 🟦 Home Team Zone -->
+        <Grid Grid.Row="0" Background="#DDE5FF" Margin="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <!-- Goalie -->
+                <RowDefinition Height="*"/>
+                <!-- Defenders -->
+                <RowDefinition Height="*"/>
+                <!-- Midfielders -->
+                <RowDefinition Height="*"/>
+                <!-- Forwards -->
+            </Grid.RowDefinitions>
+
+            <!-- Goalie -->
+            <Border Grid.Row="0" Background="#CCE5FF" Margin="2">
+                <UniformGrid  x:Name="HomeGoaliePanel" HorizontalAlignment="Center"/>
+            </Border>
+
+            <!-- Defenders -->
+            <Border Grid.Row="1" Background="#CCE5FF" Margin="2">
+                <UniformGrid  x:Name="HomeDefendersPanel" HorizontalAlignment="Center"/>
+            </Border>
+
+            <!-- Midfielders -->
+            <Border Grid.Row="2" Background="#CCE5FF" Margin="2">
+                <UniformGrid  x:Name="HomeMidfieldersPanel" HorizontalAlignment="Center"/>
+            </Border>
+
+            <!-- Forwards -->
+            <Border Grid.Row="3" Background="#CCE5FF" Margin="2">
+                <UniformGrid  x:Name="HomeForwardsPanel" HorizontalAlignment="Center"/>
+            </Border>
+        </Grid>
+
+        <!-- 🔴 Away Team Zone -->
+        <Grid Grid.Row="1" Background="#FFE5E5" Margin="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <!-- Forwards -->
+                <RowDefinition Height="*"/>
+                <!-- Midfielders -->
+                <RowDefinition Height="*"/>
+                <!-- Defenders -->
+                <RowDefinition Height="*"/>
+                <!-- Goalie -->
+            </Grid.RowDefinitions>
+
+            <!-- Forwards -->
+            <Border Grid.Row="0" Background="#FFCCCC" Margin="2">
+                <UniformGrid  x:Name="AwayForwardsPanel" HorizontalAlignment="Center"/>
+            </Border>
+
+            <!-- Midfielders -->
+            <Border Grid.Row="1" Background="#FFCCCC" Margin="2">
+                <UniformGrid  x:Name="AwayMidfieldersPanel" HorizontalAlignment="Center"/>
+            </Border>
+
+            <!-- Defenders -->
+            <Border Grid.Row="2" Background="#FFCCCC" Margin="2">
+                <UniformGrid  x:Name="AwayDefendersPanel" HorizontalAlignment="Center"/>
+            </Border>
+
+            <!-- Goalie -->
+            <Border Grid.Row="3" Background="#FFCCCC" Margin="2">
+                <UniformGrid  x:Name="AwayGoaliePanel" HorizontalAlignment="Center"/>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

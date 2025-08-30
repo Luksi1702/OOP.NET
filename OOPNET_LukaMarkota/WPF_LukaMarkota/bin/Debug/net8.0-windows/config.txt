@@ -1,0 +1,4 @@
+source=file
+gender=men
+language=hr
+windowmode=1920x1080
