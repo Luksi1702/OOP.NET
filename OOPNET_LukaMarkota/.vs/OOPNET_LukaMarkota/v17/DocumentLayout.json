@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|c:\\users\\lukam\\desktop\\oopnet\\oopnet_lukamarkota\\oopnet_lukamarkota\\wpf_lukamarkota\\matchheader.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|solutionrelative:wpf_lukamarkota\\matchheader.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A03C3E1F-B6AA-430F-B0A7-782D63E2F970}|ClassesLibrary\\ClassesLibrary.csproj|c:\\users\\lukam\\desktop\\oopnet\\oopnet_lukamarkota\\oopnet_lukamarkota\\classeslibrary\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03C3E1F-B6AA-430F-B0A7-782D63E2F970}|ClassesLibrary\\ClassesLibrary.csproj|solutionrelative:classeslibrary\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|c:\\users\\lukam\\desktop\\oopnet\\oopnet_lukamarkota\\oopnet_lukamarkota\\wpf_lukamarkota\\initwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|solutionrelative:wpf_lukamarkota\\initwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|c:\\users\\lukam\\desktop\\oopnet\\oopnet_lukamarkota\\oopnet_lukamarkota\\wpf_lukamarkota\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|solutionrelative:wpf_lukamarkota\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|c:\\users\\lukam\\desktop\\oopnet\\oopnet_lukamarkota\\oopnet_lukamarkota\\wpf_lukamarkota\\hometeamlineup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|solutionrelative:wpf_lukamarkota\\hometeamlineup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|c:\\users\\lukam\\desktop\\oopnet\\oopnet_lukamarkota\\oopnet_lukamarkota\\wpf_lukamarkota\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|solutionrelative:wpf_lukamarkota\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|c:\\users\\lukam\\desktop\\oopnet\\oopnet_lukamarkota\\oopnet_lukamarkota\\wpf_lukamarkota\\awayteamlineup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|solutionrelative:wpf_lukamarkota\\awayteamlineup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|c:\\users\\lukam\\desktop\\oopnet\\oopnet_lukamarkota\\oopnet_lukamarkota\\wpf_lukamarkota\\matchheader.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|solutionrelative:wpf_lukamarkota\\matchheader.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|c:\\users\\lukam\\desktop\\oopnet\\oopnet_lukamarkota\\oopnet_lukamarkota\\wpf_lukamarkota\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|solutionrelative:wpf_lukamarkota\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|c:\\users\\lukam\\desktop\\oopnet\\oopnet_lukamarkota\\oopnet_lukamarkota\\wpf_lukamarkota\\matchheader.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6DD39802-DA4B-413B-875A-6B9CA068D39A}|WPF_LukaMarkota\\WPF_LukaMarkota.csproj|solutionrelative:wpf_lukamarkota\\matchheader.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,63 +43,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MatchHeader.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\MatchHeader.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_LukaMarkota\\MatchHeader.xaml.cs",
-              "ToolTip": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\MatchHeader.xaml.cs",
-              "RelativeToolTip": "WPF_LukaMarkota\\MatchHeader.xaml.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAkwGIAAAADAAAAAAAAAA==",
+              "Title": "Information.cs",
+              "DocumentMoniker": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\ClassesLibrary\\Information.cs",
+              "RelativeDocumentMoniker": "ClassesLibrary\\Information.cs",
+              "ToolTip": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\ClassesLibrary\\Information.cs",
+              "RelativeToolTip": "ClassesLibrary\\Information.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:44:11.914Z",
+              "WhenOpened": "2025-09-01T18:17:19.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InitWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\InitWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_LukaMarkota\\InitWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\InitWindow.xaml.cs",
-              "RelativeToolTip": "WPF_LukaMarkota\\InitWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:41:37.6Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomeTeamLineup.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\HomeTeamLineup.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_LukaMarkota\\HomeTeamLineup.xaml.cs",
-              "ToolTip": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\HomeTeamLineup.xaml.cs",
-              "RelativeToolTip": "WPF_LukaMarkota\\HomeTeamLineup.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:35:15.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AwayTeamLineup.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\AwayTeamLineup.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_LukaMarkota\\AwayTeamLineup.xaml.cs",
-              "ToolTip": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\AwayTeamLineup.xaml.cs",
-              "RelativeToolTip": "WPF_LukaMarkota\\AwayTeamLineup.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:26:58.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF_LukaMarkota\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\MainWindow.xaml.cs",
               "RelativeToolTip": "WPF_LukaMarkota\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwDMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:31:18.963Z"
+              "WhenOpened": "2025-09-01T17:57:21.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatchHeader.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\MatchHeader.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_LukaMarkota\\MatchHeader.xaml.cs",
+              "ToolTip": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\MatchHeader.xaml.cs",
+              "RelativeToolTip": "WPF_LukaMarkota\\MatchHeader.xaml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T17:55:08.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MatchHeader.xaml",
+              "DocumentMoniker": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\MatchHeader.xaml",
+              "RelativeDocumentMoniker": "WPF_LukaMarkota\\MatchHeader.xaml",
+              "ToolTip": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\MatchHeader.xaml",
+              "RelativeToolTip": "WPF_LukaMarkota\\MatchHeader.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-01T17:55:06.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_LukaMarkota\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\lukam\\Desktop\\OOPNET\\OOPNET_LukaMarkota\\OOPNET_LukaMarkota\\WPF_LukaMarkota\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_LukaMarkota\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-01T17:55:03.279Z",
+              "EditorCaption": ""
             }
           ]
         }

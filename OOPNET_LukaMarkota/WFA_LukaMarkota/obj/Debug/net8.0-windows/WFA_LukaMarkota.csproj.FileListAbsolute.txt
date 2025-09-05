@@ -24,3 +24,4 @@ C:\Users\lukam\Desktop\OOPNET\OOPNET_LukaMarkota\OOPNET_LukaMarkota\WFA_LukaMark
 C:\Users\lukam\Desktop\OOPNET\OOPNET_LukaMarkota\OOPNET_LukaMarkota\WFA_LukaMarkota\obj\Debug\net8.0-windows\WFA_Luka.85F7ADA6.Up2Date
 C:\Users\lukam\Desktop\OOPNET\OOPNET_LukaMarkota\OOPNET_LukaMarkota\WFA_LukaMarkota\obj\Debug\net8.0-windows\WFA_LukaMarkota.RankingsForm.resources
 C:\Users\lukam\Desktop\OOPNET\OOPNET_LukaMarkota\OOPNET_LukaMarkota\WFA_LukaMarkota\obj\Debug\net8.0-windows\WFA_LukaMarkota.PlayerStatControl.resources
+C:\Users\lukam\Desktop\OOPNET\OOPNET_LukaMarkota\OOPNET_LukaMarkota\WFA_LukaMarkota\obj\Debug\net8.0-windows\WFA_LukaMarkota.sourcelink.json

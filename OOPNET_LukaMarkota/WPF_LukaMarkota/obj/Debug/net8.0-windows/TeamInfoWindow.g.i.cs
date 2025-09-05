@@ -124,7 +124,7 @@ namespace WPF_LukaMarkota {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPF_LukaMarkota;V1.0.0.0;component/teaminfowindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPF_LukaMarkota;component/teaminfowindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TeamInfoWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

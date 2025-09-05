@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\lukam\Desktop\OOPNET_LukaMarkota\WPF_LukaMarkota\obj\Debug\net8.0-windows\
+C:\Users\lukam\Desktop\OOPNET\OOPNET_LukaMarkota\OOPNET_LukaMarkota\WPF_LukaMarkota\obj\Debug\net8.0-windows\
 WPF_LukaMarkota
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\lukam\Desktop\OOPNET_LukaMarkota\WPF_LukaMarkota\App.xaml
+C:\Users\lukam\Desktop\OOPNET\OOPNET_LukaMarkota\OOPNET_LukaMarkota\WPF_LukaMarkota\App.xaml
 91285981788
 
 13-1983587757
-201992614566
+201-866867831
 AwayTeamLineup.xaml;ConfirmationWindow.xaml;FieldLineup.xaml;HomeTeamLineup.xaml;InitWindow.xaml;MainWindow.xaml;MatchHeader.xaml;PlayerControl.xaml;TeamInfoWindow.xaml;
 
 False

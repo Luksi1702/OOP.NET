@@ -116,7 +116,7 @@ namespace WPF_LukaMarkota {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPF_LukaMarkota;V1.0.0.0;component/fieldlineup.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPF_LukaMarkota;component/fieldlineup.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\FieldLineup.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

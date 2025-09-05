@@ -1,4 +1,4 @@
 source=file
 gender=men
-language=hr
-team=BEL
+language=en
+team=CRC

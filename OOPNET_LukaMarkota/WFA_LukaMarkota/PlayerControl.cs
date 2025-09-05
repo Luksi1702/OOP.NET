@@ -51,7 +51,7 @@ namespace WFA_LukaMarkota
             btnUpdateImage.Click += btnUpdateImage_Click;
         }
 
-        // 🔹 Toggle selection on Ctrl+Click
+        // Toggle selection on Ctrl+Click
         private void PlayerControl_Click(object sender, EventArgs e)
         {
             if ((ModifierKeys & Keys.Control) == Keys.Control)
@@ -87,7 +87,7 @@ namespace WFA_LukaMarkota
             BackColor = Color.Transparent;
         }
 
-        // 🔹 Drag-and-drop
+        // Drag-and-drop
         private void PlayerControl_MouseDown(object sender, MouseEventArgs e)
         {
             _mouseDownLocation = e.Location;
@@ -108,7 +108,7 @@ namespace WFA_LukaMarkota
             }
         }
 
-        // 🔹 Load player image or fallback
+        // Load player image or fallback
         private Image LoadPlayerImage(string name)
         {
             string imagePath = Information.GetPlayerImagePath(name);
@@ -121,7 +121,7 @@ namespace WFA_LukaMarkota
         }
 
 
-        // 🔹 Load captain icon
+        // Load captain icon
         private Image LoadCaptainIcon()
         {
             string iconPath = Information.CaptainBadgeImagePath;
@@ -129,7 +129,7 @@ namespace WFA_LukaMarkota
         }
 
 
-        // 🔹 Update player image
+        // Update player image
         private void btnUpdateImage_Click(object sender, EventArgs e)
         {
             using var dialog = new OpenFileDialog();
@@ -144,7 +144,7 @@ namespace WFA_LukaMarkota
 
                 try
                 {
-                    // ✅ Ensure solution-level Images folder exists
+                    // solution-level Images folder exists?
                     if (!Directory.Exists(targetFolder))
                         Directory.CreateDirectory(targetFolder);
 

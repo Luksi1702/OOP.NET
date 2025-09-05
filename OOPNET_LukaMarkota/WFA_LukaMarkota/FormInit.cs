@@ -12,7 +12,7 @@ namespace WFA_LukaMarkota
             InitializeComponent();
         }
 
-        // Load config and set dropdowns on form load
+        // Load config / set dropdowns 
         private void FormInit_Load(object sender, EventArgs e)
         {
             cbCup.Items.AddRange(new[] { "Men", "Women" });
@@ -32,7 +32,7 @@ namespace WFA_LukaMarkota
         }
 
 
-        // Save selected values to config and close form
+        // Save to config and close 
         private void btnInitSave_Click(object sender, EventArgs e)
         {
             string selectedGender = cbCup.SelectedItem?.ToString().ToLower();

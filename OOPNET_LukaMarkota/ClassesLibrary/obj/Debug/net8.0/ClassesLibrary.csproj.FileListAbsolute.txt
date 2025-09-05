@@ -22,3 +22,4 @@ C:\Users\lukam\Desktop\OOPNET_LukaMarkota\ClassesLibrary\obj\Debug\net8.0\Classe
 C:\Users\lukam\Desktop\OOPNET_LukaMarkota\ClassesLibrary\obj\Debug\net8.0\refint\ClassesLibrary.dll
 C:\Users\lukam\Desktop\OOPNET_LukaMarkota\ClassesLibrary\obj\Debug\net8.0\ClassesLibrary.pdb
 C:\Users\lukam\Desktop\OOPNET_LukaMarkota\ClassesLibrary\obj\Debug\net8.0\ref\ClassesLibrary.dll
+C:\Users\lukam\Desktop\OOPNET\OOPNET_LukaMarkota\OOPNET_LukaMarkota\ClassesLibrary\obj\Debug\net8.0\ClassesLibrary.sourcelink.json

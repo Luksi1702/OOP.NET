@@ -84,3 +84,4 @@ C:\Users\lukam\Desktop\OOPNET_LukaMarkota\WPF_LukaMarkota\obj\Debug\net8.0-windo
 C:\Users\lukam\Desktop\OOPNET_LukaMarkota\WPF_LukaMarkota\obj\Debug\net8.0-windows\WPF_LukaMarkota.pdb
 C:\Users\lukam\Desktop\OOPNET_LukaMarkota\WPF_LukaMarkota\obj\Debug\net8.0-windows\WPF_LukaMarkota.genruntimeconfig.cache
 C:\Users\lukam\Desktop\OOPNET_LukaMarkota\WPF_LukaMarkota\obj\Debug\net8.0-windows\ref\WPF_LukaMarkota.dll
+C:\Users\lukam\Desktop\OOPNET\OOPNET_LukaMarkota\OOPNET_LukaMarkota\WPF_LukaMarkota\obj\Debug\net8.0-windows\WPF_LukaMarkota.sourcelink.json

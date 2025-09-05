@@ -61,7 +61,7 @@ namespace WPF_LukaMarkota {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPF_LukaMarkota;V1.0.0.0;component/hometeamlineup.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPF_LukaMarkota;component/hometeamlineup.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\HomeTeamLineup.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
